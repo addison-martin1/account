@@ -38,6 +38,7 @@ The following rules apply to aliases:
 * Deleting the application that your IAM-managed service instance is connected to *doesn't* delete the instance that represents the alias.
 * Deleting an IAM-managed service instance *deletes* the service instance that represents the alias.
 
+
 ## Creating a connection (alias) between an IAM-managed service and an app
 {: #creating_alias}
 
