@@ -94,6 +94,7 @@ ibmcloud iam service-api-key-update NAME SERVICE_ID [-n, --name NEW_sNAME] [-d, 
 
 ## Locking a service ID's API key
 {: #lockkey}
+{: ui}
 
 For API keys that represent the identity of the service ID, you can prevent the API key from being deleted by locking it. A locked API key is indicated by the ![Locked icon](images/locked.svg "Locked") icon in the UI.
 
