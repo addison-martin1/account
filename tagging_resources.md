@@ -116,12 +116,12 @@ For more information, see the [`ibmcloud resource` command reference](/docs/cli?
 
 You can programmatically create access management tags by calling the [Global Search and Tagging - Tagging API](https://{DomainName}/apidocs/tagging#create-tag){: external} as shown in the following sample request. The example creates a tag that is called `project:myproject`.
 
-```
+```bash
 curl -X POST -H "Authorization: {iam_token}" \
 -H "Accept: application/json" \
 -H "Content-Type: application/json" \
 -d '{ "tag_names": ["project:myproject"] }' \
-"{base_url}/v3/tags?tag_type=access"
+"tags.global-search-tagging.cloud.ibm.com/v3/tags?tag_type=access"
 ```
 {: pre}
 {: curl}
